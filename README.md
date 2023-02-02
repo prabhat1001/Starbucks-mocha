@@ -32,3 +32,17 @@ We're always looking for contributors to help improve this project. If you're in
 For support, please reach out at prabhatsaraswat24@gmail.com.
 <br>
 We hope you enjoy using this Starbucks-mocha!
+<br>
+
+<div style="display: flex;">
+  <img src="https://user-images.githubusercontent.com/71027441/216245338-2225671d-6211-4383-9094-7c545815db03.gif" alt="Image 1" width="33.33%" height="auto" style="margin-right: 8px;">
+  <img src="https://user-images.githubusercontent.com/71027441/216245371-2356a43a-1b9a-4acd-9db7-ce905ccf12bd.gif" alt="Image 2" width="33.33%" height="auto" style="margin-right: 8px;">
+  <img src="https://user-images.githubusercontent.com/71027441/216245386-b639e426-5329-4635-895f-dc9fb9a56721.gif" alt="Image 3" width="33.33%" height="auto" style="margin-right: 8px;">
+  <img src="https://user-images.githubusercontent.com/71027441/216245979-c5fed93e-d455-4c69-93ee-9d5d900183f6.gif" alt="Image 3" width="33.33%" height="auto">
+</div>
+
+
+
+
+
+
