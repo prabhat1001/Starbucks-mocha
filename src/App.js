@@ -1,19 +1,17 @@
 import React from 'react'
+import {BrowserRouter as Router, Routes, Route} from "react-router-dom";
 import './App.css';
-import LandingPage from './Pages/LandingPage';
-import Categories from './Pages/Categories';
-import Menu from './Pages/Menu';
-// import Footer from './Components/Footer';
-
+import Home from './Pages/Home';
+import Order from './Pages/OrderPage';
 
 const App = () => {
   return (
-    <>
-    <LandingPage />
-    <Categories />
-    <Menu />
-    {/* <Footer /> */}
-    </>
+    <Router>
+        <Routes> 
+          <Route exact path="/" element={<Home />}></Route>
+          <Route exact path="/order" element={<Order />}></Route>
+        </Routes>
+      </Router>
   )
 }
 

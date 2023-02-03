@@ -1,0 +1,8 @@
+.react-player{
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-radius: 25px;
+    overflow: hidden;
+    z-index: 12;
+}
