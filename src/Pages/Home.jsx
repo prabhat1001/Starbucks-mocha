@@ -2,7 +2,7 @@ import React from 'react'
 import LandingPage from './LandingPage';
 import Categories from './Categories';
 import Menu from './Menu';
-// import Footer from './Components/Footer';
+import Footer from '../Components/Footer';
 // import Modal from '../Components/Modal';
 
 const Home = () => {
@@ -12,7 +12,7 @@ const Home = () => {
     <Categories />
     <Menu />
     {/* <Modal /> */}
-    {/* <Footer /> */}
+    <Footer />
     </>
   )
 }

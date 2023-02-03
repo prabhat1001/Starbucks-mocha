@@ -3,7 +3,7 @@ import React from 'react';
 import './LandingPage.css'
 
 //navbar imported
-import Navbar from '../Components/Navbar';
+import Navbar from '../Components/Header';
 //styled components imported
 import styled from 'styled-components';
 
