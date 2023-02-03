@@ -17,7 +17,7 @@ const OrderPage = () => {
   return (
     <OrderContainer>
         <Wave src='/images/wave-3.png' alt='waves' />
-        <OrderImg src="/images/order.png" alt="order-items" />
+        <OrderImg src="/images/Order.png" alt="Order-items" />
         <OrderBox>
           <Heading>Wow, You have a Great Choice!</Heading>
             <Detail>
