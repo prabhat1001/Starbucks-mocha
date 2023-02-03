@@ -1,10 +1,19 @@
 import React from 'react'
 import './App.css';
+import LandingPage from './Pages/LandingPage';
+import Categories from './Pages/Categories';
+import Menu from './Pages/Menu';
+// import Footer from './Components/Footer';
 
 
 const App = () => {
   return (
-    <div>App</div>
+    <>
+    <LandingPage />
+    <Categories />
+    <Menu />
+    {/* <Footer /> */}
+    </>
   )
 }
 
