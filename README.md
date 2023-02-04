@@ -10,7 +10,7 @@ Welcome to the Starbucks-mocha! This project is a reimagination of the Starbucks
 ### 📍 Live link
 To watch it live in action, just click the link below
 <br>
-https://starbucks-mocha.vercel.app/
+[Click Here](https://starbucks-mocha.vercel.app/)
 <br>
 
 ### Features
