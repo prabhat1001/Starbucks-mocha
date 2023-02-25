@@ -177,11 +177,10 @@ const Brew = styled.img`
   @media (min-width: 320px) and (max-width: 425px){
     position: relative;
     /* background-color: aqua; */
-    height: 450px;
-    width: 400px;
+    height: 80vh;
+    width: 90vw;
     top: -5%;
-    left: auto;
-    right: auto;
+    left: 0%;
     
   }
 
