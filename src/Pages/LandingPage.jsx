@@ -50,7 +50,7 @@ const MainContainer = styled.div`
   height: 100vh;
   background-image: url("/images/landing-bg.png");
   background-size: cover;
-  /* overflow: hidden; */
+  overflow: hidden;
 `;
 
 const Heading = styled.h1`
