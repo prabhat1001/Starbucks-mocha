@@ -1,3 +1,7 @@
+// NOTE: Whenever you didn't find video on the web page 
+// then make sure the internet connection is stable.
+
+
 import styled from 'styled-components';
 import ReactPlayer from 'react-player';
 import './Video.css'
