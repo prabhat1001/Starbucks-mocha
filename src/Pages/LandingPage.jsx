@@ -128,22 +128,22 @@ const Cap = styled.div`
   }
 
   //for larger screens
-@media (min-width: 768px){
-  top: 65%;
-  left: 2%;
-}
+  @media (min-width: 768px){
+    top: 65%;
+    left: 2%;
+  }
 
-//for medium screens
-@media (min-width: 426px) and (max-width: 768px){
-  top: 60%;
-  left: 2%;
-  display: none;
-}
+  //for medium screens
+  @media (min-width: 426px) and (max-width: 768px){
+    top: 60%;
+    left: 2%;
+    display: none;
+  }
 
-//for smaller screens
-@media (min-width: 320px) and (max-width: 425px){
-  display: none;
-}
+  //for smaller screens
+  @media (min-width: 320px) and (max-width: 425px){
+    display: none;
+  }
 
 `;
 
@@ -178,7 +178,7 @@ const Brew = styled.img`
     position: relative;
     /* background-color: aqua; */
     height: 80vh;
-    width: 90vw;
+    width: 100vw;
     top: -5%;
     left: 0%;
     
@@ -434,6 +434,9 @@ const Semicircle = styled.div`
 
   //for smaller screens
   @media (min-width: 320px) and (max-width: 425px){
+    height: 400px;
+    width: 600px;
+    top: 85%;
   }
 `;
 
