@@ -50,7 +50,7 @@ const MainContainer = styled.div`
   height: 100vh;
   background-image: url("/images/landing-bg.png");
   background-size: cover;
-  overflow: hidden;
+  /* overflow: hidden; */
 `;
 
 const Heading = styled.h1`
@@ -86,6 +86,14 @@ const Heading = styled.h1`
 
     //for smaller screens
     @media (min-width: 320px) and (max-width: 425px){
+      /* background-color: blue; */
+      display: flex;
+      font-size: 2rem;
+      width: 100%;
+      height: 30vh;
+      line-height: 4rem;
+      text-align: center;
+      align-items: center;
 
     }
 
@@ -134,6 +142,7 @@ const Cap = styled.div`
 
 //for smaller screens
 @media (min-width: 320px) and (max-width: 425px){
+  display: none;
 }
 
 `;
@@ -150,7 +159,8 @@ const Brew = styled.img`
   //for larger screens
   @media (min-width: 769px){
     top: -40%;
-    left: 30%;
+    left: 32%;
+    max-width: 35%;
   }
 
   //for medium screens
@@ -165,7 +175,14 @@ const Brew = styled.img`
 
   //for smaller screens
   @media (min-width: 320px) and (max-width: 425px){
-    display: none;
+    position: relative;
+    /* background-color: aqua; */
+    height: 450px;
+    width: 400px;
+    top: -5%;
+    left: auto;
+    right: auto;
+    
   }
 
 `;
@@ -223,6 +240,14 @@ const PriceDrop = styled.div`
 
   //for smaller screens
   @media (min-width: 320px) and (max-width: 425px){
+    margin:0;
+    /* background-color: aqua; */
+    height: 120px;
+    right: 2%;
+    align-items: flex-end;
+    flex-direction: column;
+    justify-content: space-around;
+    transform: none;
   }
 
 
@@ -278,6 +303,7 @@ const Details = styled.div`
 
   //for smaller screens
   @media (min-width: 320px) and (max-width: 425px){
+    display: none;
   }
 
 
